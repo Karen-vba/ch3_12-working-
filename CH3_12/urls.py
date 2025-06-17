@@ -23,6 +23,7 @@ urlpatterns = [
     path("admin/", admin.site.urls),
     path("search_list/", views.search_list),
     path("index/", views.index),
+    path("edit/<int:id>/", views.edit),
 
 
 ]
